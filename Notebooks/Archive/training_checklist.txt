@@ -1,0 +1,11 @@
+1. Copy DL_-_Y8_nano_-_Train_Notebook.ipynb 
+2. Change DL_-_Y8_nano_-_Train_Notebook.ipynb name
+3. Open the notebook
+4. Change the title
+5. Change exp_name = ""
+6. Optional - Copy the best model in your virtual machine and load it by modifying yolo_model = YOLO("yolov8n.pt") to yolo_model = YOLO("/path/to/model.pt")
+7. define your parameters
+8. At the end of the notebook change write your experience name in !zip -r results.zip /content/DL_-_Sign_Detection/exp_name
+	If you experience name is "test_learning" rate the path should be !zip -r results.zip /content/DL_-_Sign_Detection/test_learning
+	Once the training is finished, a zip file will be downloaded on your virtual machine. 
+9. Unzip the file and inside the unziped folder move the folder containing the results to the shared drive under Saved_Results		
